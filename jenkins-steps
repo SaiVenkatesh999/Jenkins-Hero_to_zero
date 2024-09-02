@@ -1,0 +1,16 @@
+Jenkins is Java Based Application
+Need to install JDK or JAVA inorder to install Jenkins
+ps -ef |grep jenkins - to know port
+Install jenkins and login and install all plugins
+http://3.22.224.43:8080/
+Jenkins Architecture
+Jenkins master only use for Scheduling 
+Master -Worker Architecture
+We are trying to run Jenkin pipelines/stages  on Docker Containers
+Docker container - light weight
+Containers are very flexible 
+--> porject title:Docker as Agent in Jenkin in our project setup we found this useful as we brought down the cost  and also in terms efficientcy by spinning up and tearing up containers
+How to configure Docker Containers and Docker as Agent
+http://3.22.224.43:8080/restart --> to Restart Jenkins
+In pipeline approach we can write declarative and scripted pipeline --> write pipeline as code --> we can push this jenkins (pipeline) into GIT repo & go for peer review
+
